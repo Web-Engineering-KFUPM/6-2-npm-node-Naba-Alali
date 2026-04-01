@@ -78,6 +78,7 @@ Example:
   import { parseNumbers, isValidOperation } from "./utils/parser.js";
   import _ from "lodash";
 
+  
 ===================================================================
 TODO 2: Parse Command Line Arguments (in calculator.js)
 ===================================================================
@@ -213,3 +214,7 @@ After completing all TODOs, test your calculator:
 
 */
 
+
+import { add, subtract, multiply, divide } from "./utils/operations.js";
+import { parseNumbers, isValidOperation } from "./utils/parser.js";
+import _ from "lodash";
